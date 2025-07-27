@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,5 +7,8 @@ public class ex1 {
                                                             102,"anada",
                                                             103,"dinesha"));
         System.out.println(map);
+        System.out.println(map.get(101));
+        System.out.println(map.get(102));
+        System.out.println(map.get(103));
     }
 }
